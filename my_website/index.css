@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url("images/greenbackground.jpg");
+    background-attachment: fixed;
+    #background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: #ffff4d;
+    text-align: center;
+    font-weight: bold;
+    border: 8px solid;
+    border-color: #ff4d4d;
+    -webkit-animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+    50% {border-color: #ff1a1a;}
+    50% {color: #b3b3ff;}
+}
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+div ul li {
+    float: left;
+}
+
+div ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+div ul li a:hover {
+    background-color: #111111;
+}
