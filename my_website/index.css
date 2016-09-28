@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
 }
 h1 {
-    color: #ffff4d;
+    color: black;
     text-align: center;
     font-weight: bold;
     border: 8px solid;
@@ -15,7 +15,7 @@ h1 {
 }
 @-webkit-keyframes mymove {
     50% {border-color: #ff1a1a;}
-    50% {color: #b3b3ff;}
+    50% {color: purple;}
 }
 div ul {
     list-style-type: none;
