@@ -6,6 +6,8 @@ body {
     background-repeat: no-repeat;
 }
 h1 {
+    background-color: yellow;
+    padding: 1em;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -38,5 +40,17 @@ div ul li a {
 }
 
 div ul li a:hover {
-    background-color: #111111;
+    background-color: #ff80d5;
+}
+
+div ul li a:active {
+    background-color: #33d6ff;
+}
+
+.desc {
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
 }

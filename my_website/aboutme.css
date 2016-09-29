@@ -35,7 +35,7 @@ img.quang {
 img.quang2 {
     display: block;
     margin: auto;
-    clear: right;
+    float: right;
 }
 table {
     text-align: center;
