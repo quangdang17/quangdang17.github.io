@@ -5,7 +5,8 @@ body {
     #background-size: 100%;
     background-repeat: no-repeat;
 }
-h1 {
+
+h1.head {
     background-color: yellow;
     padding: 1em;
     color: black;
@@ -19,7 +20,7 @@ h1 {
     50% {border-color: #ff1a1a;}
     50% {color: purple;}
 }
-div ul {
+div.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,11 +28,11 @@ div ul {
     background-color: #333333;
 }
 
-div ul li {
+div.menu ul li {
     float: left;
 }
 
-div ul li a {
+div.menu ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -39,18 +40,27 @@ div ul li a {
     text-decoration: none;
 }
 
-div ul li a:hover {
+div.menu ul li a:hover {
     background-color: #ff80d5;
 }
 
-div ul li a:active {
+div.menu ul li a:active {
     background-color: #33d6ff;
 }
 
-.desc {
-    font-weight: bold;
+p.desc {
+    font-size: x-large;
+    font-weight: normal;
     color: darkblue;
     text-align: center;
     margin: auto;
     padding: 1em;
+}
+
+div.source {
+    padding: 2em;
+}
+
+h2.source {
+    font-weight: bold;
 }
