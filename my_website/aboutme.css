@@ -38,6 +38,7 @@ img.quang {
     display: block;
     margin: auto;
     padding: 1em;
+    border-radius: 200px;
 }
 img.quang2 {
     display: block;
