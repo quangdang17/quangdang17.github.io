@@ -1,7 +1,11 @@
+head{
+    cursor: url("cursors/pichu.cur"), auto;
+}
 body {
     font-family: Verdana, sans-serif;
     background: url("images/greenbackground.jpg");
     background-attachment: fixed;
+    cursor: url("cursors/pichu.cur"), auto;
 }
 div ul {
     list-style-type: none;
