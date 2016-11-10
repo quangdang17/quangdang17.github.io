@@ -10,7 +10,7 @@
 	      
 	      <header><h1 class="head">Welcome to Quang's Portfolio Page!</h1></header>
 	      
-	<div>
+	<div class="menu">
 	<ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About Me</a></li>
@@ -18,16 +18,41 @@
     </ul>
     </div>
     
-    <img src="images/portfolio.jpg" height="250">
-    <br>
-    <a target="_blank" href="https://scratch.mit.edu">
-      <img src="images/scratchlogo.png" height="100">
-    </a>
+    <hr width="100%">
+    <a href="https://scratch.mit.edu/projects/129346287/"><img class="kappa" src="images/KappaPride.PNG" style="width:500px;height:350px;"></a>
+    <a href="https://scratch.mit.edu/projects/127656891/#player"><img class="firstgame" src="images/firstgame.PNG" style="width:500px;height:350px;"></a>
     
-    <footer class="foot"><u>Image Sources</u></footer>
-    <ul style="list-style-type:none">
-        <li></li>
-    </ul>
+    <h2 class="explain"><ins>The Game: KappaPride Arcade</ins></h2>
+    <p class="explain">
+    The wizard on the green background is my code for the start of a game. This is only a test game, so there won't be much.
+    KappaPride Arcade resulted from the original idea: Cyberspace Arcade. By making a mess out of the first set of scripts from Cyberspace Arcade,
+    we decided that it was easier to just start from scratch. The purpose of KappaPride Arcade was to relieve stress from American politics and Mr. Greek's 
+    class. The code included four main sprites supported by smaller sprites that interact with the main sprites to allow the game to function correctly.
+    One of the main sprites, JohnGreek, would receive a broadcast called difficulty.Hard at the start of the last round. He would then go to a specific x
+    position and y position, show himself on the screen, set his health to 200, say a couple of lines, provides three different broadcasts, and
+    glide back and forth in a loop until the hero health or his own health depletes to 0. To narrow it down, only one broadcast will be mentioned.
+    JohnGreek's broadcast of Calculus.Shoot() will be sent to himself and two sprites called calculus and Hero. Once calculus receives Calculus.Shoot(), it
+    will change its location to JohnGreek, show itself, and glides to a specific x position. This causes a straight projectile motion across the screen.
+    This broadcast will be repeated until the hero health or JohnGreek's health is equal to or less than 0. Upon receiving the broadcast, Hero will check
+    to see if it is touching the calculus sprite and will lose health upon contact. When hero health is equal to or less than 0, it will broadcast
+    play.GameOver(). Once JohnGreek receives his own broadcast of Calculus.Shot(), he will check to see if he is touching the projectile that is being launched
+    by Hero. The concept is the same as Hero's loop. The process will repeat until JohnGreek's health reaches 0 which will initiate his hidden status, a change
+    in the variable Score and broadcast play.Victory(). As one may notice, all of these are basic loops cycling until an event triggers another broadcast.
+    In an event of a problem, we would have to go through every sprite and look at the scripts to see which was inputting incorrectly. Most of the
+    difficulties that we've encountered was due to the program being too STRICT on some blocks of scripts. A noticeable "issue" with our game was 
+    when the KappaRainbow projectile became stuck for unknown reasons. With no luck on finding out the cause of this, we decided to turn this into the
+    opportunity to make our game more challenging. We called this JohnGreek's little trick. It would be presented as if he had the ability
+    to freeze projectiles in midair and "dodge" them as they passed through him. Overall, the game-making process from the program developed by
+    scratch.mit.edu was fun and frustrating. May KappaPride Arcade live on to be the greatest game of all time! 
+    </p>
+    
+    <hr width="100%">
+    <div class="source">
+      <h2 class="source"><u>Image Sources</u></h2>
+        <ul style="list-style-type: circle">
+          <a href="https://scratch.mit.edu/"><li>scratch.mit.edu</li></a>
+        </ul>
+    </div>
     
 	  </body>
 	</html>
