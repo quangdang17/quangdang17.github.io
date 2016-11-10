@@ -52,7 +52,7 @@ h1.head {
 
 img.kappa {
     
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 img.firstgame {
@@ -64,14 +64,14 @@ h2.explain {
     text-align: center;
     font-family: "Times New Roman", serif;
     color: #0066ff;
-    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 p.explain {
     text-indent: 50px;
     border-radius: 10px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-color: darkred;
     background-color: lightyellow;
 }
