@@ -52,15 +52,15 @@ h1.head {
 
 img.kappa {
     
-    padding-left: 150px;
+    padding-left: 75px;
 }
 
 img.firstgame {
-    
+    padding-right: 75px;
     padding-left: 100px;
 }
 
-h2.explain {
+h2.game {
     text-align: center;
     font-family: "Times New Roman", serif;
     color: #0066ff;
