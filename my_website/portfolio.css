@@ -51,16 +51,20 @@ h1.head {
 }
 
 img.kappa {
-    
-    padding-left: 75px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+    margin-left: 150px;
 }
 
 img.firstgame {
-    padding-right: 75px;
-    padding-left: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+    margin-left: 150px;
 }
 
-h2.game {
+h1.game {
     text-align: center;
     font-family: "Times New Roman", serif;
     color: #0066ff;
@@ -74,4 +78,13 @@ p.explain {
     border-width: 5px;
     border-color: darkred;
     background-color: lightyellow;
+    padding: 1em;
 }
+
+/*div.source ul li a:hover {
+    background-color: lightblue;
+}
+
+div.source ul li a:active {
+    background-color: blue;
+} */
