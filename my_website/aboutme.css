@@ -39,6 +39,8 @@ img.quang {
     margin: auto;
     padding: 1em;
     border-radius: 200px;
+    background-color: blueviolet;
+    margin-top: 50px;
 }
 img.quang2 {
     display: block;
