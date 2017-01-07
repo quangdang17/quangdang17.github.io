@@ -64,6 +64,13 @@ img.firstgame {
     margin-left: 110px;
 }
 
+img.story {
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkblue;
+    margin-left: 415px;
+}
+
 h1.game {
     text-align: center;
     font-family: "Times New Roman", serif;
@@ -71,8 +78,24 @@ h1.game {
     padding-bottom: 1em;
 }
 
-p.explain {
+h1.story {
+    text-align:center;
+    font-family: "Times New Roman", serif;
+    color: #0066ff;
+    padding-bottom: 1em;
+}
+
+p.explaingame {
     text-indent: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkred;
+    background-color: lightyellow;
+    padding: 1em;
+}
+
+div.explainstory p {
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
