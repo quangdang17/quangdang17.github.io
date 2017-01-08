@@ -1,12 +1,19 @@
+@font-face { 
+    font-family: OldNewsPaper; 
+    src: url('fonts/OldNewspaperTypes.ttf'); 
+}
+
 head{
     cursor: url("cursors/pichu.cur"), auto;
 }
 body {
-    font-family: Verdana, sans-serif;
+    /* font-family: Verdana, sans-serif; */
+    font-family: OldNewsPaper;
     background: url("images/greenbackground.jpg");
     background-attachment: fixed;
     cursor: url("cursors/pichu.cur"), auto;
 }
+
 div.menu ul {
     list-style-type: none;
     margin: 0;
@@ -86,7 +93,7 @@ h1.story {
 }
 
 p.explaingame {
-    text-indent: 50px;
+    /* text-indent: 50px; */
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
@@ -95,7 +102,16 @@ p.explaingame {
     padding: 1em;
 }
 
-div.explainstory p {
+p.explainstory1 {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkred;
+    background-color: lightyellow;
+    padding: 1em;
+}
+
+p.explainstory2 {
     border-radius: 10px;
     border-style: solid;
     border-width: 5px;
