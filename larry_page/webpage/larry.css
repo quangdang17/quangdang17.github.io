@@ -436,3 +436,7 @@ Span 8:    100%
 p.ref {
   line-height: 2em;
 }
+
+image.img {
+    border: groove 6px;
+}
