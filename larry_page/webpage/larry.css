@@ -437,6 +437,6 @@ p.ref {
   line-height: 2em;
 }
 
-image.img {
-    border: groove 6px;
+.image {
+    border: groove 6px white;
 }
