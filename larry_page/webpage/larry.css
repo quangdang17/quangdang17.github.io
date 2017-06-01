@@ -423,19 +423,25 @@ Span 8:    100%
   }
 }
 
-.con::first-letter {
-    color: #ff0000;
-    font-size: 200%;
+.conborder {
+  border: solid 2px;
+  border-radius: 3em;
+  background-color: crimson;
+}
+
+p.con::first-letter {
+    color: bisque;
+    font-size: 300%;
 }
 
 #contributions {
   list-style-type: upper-roman;
-  padding: 0 2em;
+  padding: 2em;
 }
 
 #awards {
   list-style-type: disc;
-  padding: 0 2em;
+  padding: 2em;
 }
 
 p.ref {
