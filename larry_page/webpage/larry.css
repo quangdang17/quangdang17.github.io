@@ -435,7 +435,7 @@ p.con::first-letter {
 }
 
 #contributions {
-  list-style-type: upper-roman;
+  list-style-type: none;
   padding: 2em;
 }
 
