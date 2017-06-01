@@ -423,6 +423,11 @@ Span 8:    100%
   }
 }
 
+p.con::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}
+
 #contributions {
   list-style-type: upper-roman;
   padding: 0 2em;
