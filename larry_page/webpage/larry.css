@@ -438,5 +438,6 @@ p.ref {
 }
 
 .image {
-    border: groove 6px white;
+    border: double 0.55em white;
+    border-radius: 35px;
 }
