@@ -427,6 +427,7 @@ Span 8:    100%
   border: solid 2px;
   border-radius: 3em;
   background-color: crimson;
+  padding: 1em 3em;
 }
 
 p.con::first-letter {
@@ -436,12 +437,10 @@ p.con::first-letter {
 
 #contributions {
   list-style-type: none;
-  padding: 2em;
 }
 
 #awards {
   list-style-type: disc;
-  padding: 2em;
 }
 
 p.ref {
