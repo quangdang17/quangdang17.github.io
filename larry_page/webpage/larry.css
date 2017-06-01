@@ -423,7 +423,7 @@ Span 8:    100%
   }
 }
 
-p.con::first-letter {
+.con::first-letter {
     color: #ff0000;
     font-size: 200%;
 }
